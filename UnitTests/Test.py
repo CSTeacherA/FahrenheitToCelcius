@@ -49,7 +49,10 @@ def run_all_tests():
                 print(f"   Got     : {actual_output}")
             test_number += 1
 
-        print(f"\n Summary: {passed}/{total} tests passed.")
+        if passed == total:
+            print("All Passed")
+        else: 
+            print(f"\n Summary: {passed}/{total} tests passed.")
 
 if __name__ == "__main__":
     run_all_tests()
