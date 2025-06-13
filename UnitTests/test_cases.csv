@@ -1,0 +1,4 @@
+input,expected_output
+"32\n","0"
+"100\n","38"
+"0\n","-18"

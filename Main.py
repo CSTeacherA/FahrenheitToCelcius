@@ -4,6 +4,9 @@
 # the formula to convert fahrenheit to celcius is C = (f - 32 ) * (5/9)
 
 
+# use round() to round to the nearest whole number
+
+
 # use print() to display the converted degrees in celcius
 
 
